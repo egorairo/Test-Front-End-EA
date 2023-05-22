@@ -36,7 +36,10 @@ export default function UnderConstruction() {
 
         <div className="relative z-10 h-full w-full pt-[80px] xs:pt-24 lg:pt-16">
           <div className="flex flex-col items-center w-full px-2 md:px-4">
-            <a href="#" className="text-center mb-16 xs:mb-40 lg:mb-[90px]">
+            <a
+              href="#"
+              className="text-center mb-16 xs:mb-40 lg:mb-[90px] cursor-pointer"
+            >
               <img
                 src={process.env.PUBLIC_URL + '/images/lead-logo.svg'}
                 className="w-32 xs:w-full animate-reveal-logo"
