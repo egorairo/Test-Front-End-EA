@@ -152,7 +152,7 @@ export default function AllEvents() {
                         bg-center`
                   }`}
                 >
-                  <div className="absolute flex flex-row-reverse xl:flex-col items-center xl:items-stretch h-full w-full justify-end bg-gradient-to-t from-main-color to-transparent">
+                  <div className="absolute flex flex-row-reverse xl:flex-col items-center xl:items-stretch h-full w-full justify-end bg-gradient-to-r xl:bg-gradient-to-t from-main-color to-transparent">
                     <div className="xl:-rotate-90 text-lg md:text-2xl xl:text-4xl text-left font-semibold text-white md:whitespace-nowrap ml-8 xl:ml-0 xl:mb-10">
                       {event.name}
                     </div>
