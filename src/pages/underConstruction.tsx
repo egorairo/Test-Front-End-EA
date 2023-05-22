@@ -35,7 +35,7 @@ export default function UnderConstruction() {
         />
 
         <div className="relative z-10 h-full w-full pt-[80px] xs:pt-24 lg:pt-16">
-          <div className="flex flex-col items-center w-full px-2 md:px-4">
+          <div className="flex flex-col items-center w-full px-5 md:px-10">
             <a
               href="#"
               className="text-center mb-16 xs:mb-40 lg:mb-[90px] cursor-pointer"
@@ -57,7 +57,7 @@ export default function UnderConstruction() {
 
             <Timer />
 
-            <div className="flex flex-col items-center mt-10 xs:mt-[70px] px-2 md:px-4 animate-reveal-button">
+            <div className="flex flex-col items-center mt-10 xs:mt-[70px] px-5 md:px-10 animate-reveal-button">
               <p className="text-lg text-secondary-black">
                 Check our event page when you wait:
               </p>
