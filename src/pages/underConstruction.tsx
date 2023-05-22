@@ -67,7 +67,12 @@ export default function UnderConstruction() {
                 rel="noreferrer"
                 className="inline-flex items-center justify-between px-7 py-4 h-[60px] w-[240px] rounded-[40px] bg-main-color text-lg text-white mt-3 duration-200 hover:opacity-80"
               >
-                Go to the event <span>→</span>
+                Go to the event
+                <img
+                  src={process.env.PUBLIC_URL + '/images/arrow-next.svg'}
+                  alt="arrow"
+                  className="w-5 h-5"
+                />
               </a>
             </div>
           </div>
@@ -75,13 +80,18 @@ export default function UnderConstruction() {
           <div className="absolute bottom-0 flex flex-col items-center justify-center gap-4 w-full h-40 lg:h-[192px] bg-main-color">
             <EmailNotificationForm />
             <button
-              className="lg:absolute top-1/2 right-28 lg:-translate-y-1/2 text-[20px] text-white duration-200 hover:opacity-80"
+              className="lg:absolute top-1/2 right-28 lg:-translate-y-1/2 flex items-center text-[20px] text-white duration-200 hover:opacity-80"
               onClick={() => {
                 setIsOtherEventsSectionActive(!isOtherEventsSectionActive)
                 scrollToBottom()
               }}
             >
-              Other Events ↓
+              Other Events{' '}
+              <img
+                src={process.env.PUBLIC_URL + '/images/arrow-next.svg'}
+                alt="arrow"
+                className="w-5 h-5 ml-2 rotate-90"
+              />
             </button>
           </div>
         </div>

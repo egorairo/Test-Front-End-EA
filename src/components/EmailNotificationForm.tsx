@@ -68,7 +68,11 @@ const EmailNotificationForm = () => {
               alt="loading"
             />
           ) : (
-            <>→</>
+            <img
+              src={process.env.PUBLIC_URL + '/images/arrow-next.svg'}
+              alt="arrow"
+              className="w-4 h-4"
+            />
           )}
         </button>
       </form>
