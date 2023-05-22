@@ -18,7 +18,9 @@ const EmailNotificationForm = () => {
     setIsPopupOpen(false)
   }
 
-  const emailNotificationFormSubmit = async (event: any) => {
+  const emailNotificationFormSubmit = async (
+    event: React.FormEvent<HTMLFormElement>
+  ) => {
     event.preventDefault()
 
     if (!validateEmail(email)) {
